@@ -1,0 +1,158 @@
+body{
+    background-color: black;
+}
+
+.container{
+    background-color: rgb(35, 35, 35);
+    border: 2px solid rgb(35, 35, 35);
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-top: 50px;
+    padding: 20px;
+    font-family: 'Inter';
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    width: 50px;
+    margin: 20px auto;
+    width: 60px;
+    height: 60px;
+
+}
+
+header{
+    color: white;
+    margin-bottom: 1px;
+}
+
+.place h6:first-child{
+    color: yellow;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.place h6:nth-child(2){
+    color: white;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.item{
+    margin-top: 5px;
+    color: white;
+
+}
+
+.link {
+    color: inherit; /* Inherit the text color from the parent (h6) */
+    text-decoration: none; /* Removes underline */
+    display: block; /* Ensures the link fills the h6 container */
+    height: 100%; /* Matches the height of the h6 */
+    line-height: 25px; /* to Aligns the text vertically */
+}
+
+
+.item-1{
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 30px;
+    padding-top: 7px;
+
+
+
+}
+.item-2{
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 30px;
+    padding-top: 7px;
+
+
+}
+.item-3{
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 30px;
+    padding-top: 7px;
+
+
+
+}
+.item-4{
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 30px;
+    padding-top: 7px;
+
+
+
+}
+.item-5{
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 30px;
+    padding-top: 7px;
+
+}
+
+/* Media Query for screens with width 375px or less */
+@media screen and (max-width: 375px) {
+    body {
+        background-color: black; 
+        margin: 0; /* no margins as screen size it small */
+    }
+
+    .container {
+        width: 90%; 
+        /* Adjust width to fit smaller screens */
+        margin: 20px auto;
+         /* Center the container */
+        padding: 15px;
+         /* Reduce padding for smaller screens */
+    }
+
+    .image {
+        width: 50px;
+        height: 50px; 
+        margin: 10px auto; 
+        /* Center the image */
+    }
+
+    header {
+        font-size: 18px; 
+        margin-bottom: 10px;
+    }
+
+    .place h6:first-child {
+        font-size: 14px; 
+        margin-bottom: 5px;
+    }
+
+    .place h6:nth-child(2) {
+        font-size: 12px; /* Reduce font size for white text */
+    }
+
+    .item h6 {
+        font-size: 14px; /* Adjust font size for social links */
+        height: 30px; /* Increase height slightly for better tap targets */
+        line-height: 30px; /* Adjust line height */
+    }
+
+    .link {
+        font-size: inherit; /* Maintain consistent font size */
+        /* i.e inherit size of what we have ofr desktop screen */
+    }
+}
+
+
+
+
+
+
+
